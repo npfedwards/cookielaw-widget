@@ -1,0 +1,1 @@
+The cookie law widget is designed to help you work inline with the EU Cookie Law.
