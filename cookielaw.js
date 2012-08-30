@@ -38,5 +38,10 @@ function cookieWidget(position){
 	
 	
 	//Put the message inside the holddiv
-	holddiv.innerHTML="This website uses cookies! By using this website you are agreeing to our use of them. Find out more <a href='cookiepolicy.html'>here</a>";
+	holddiv.innerHTML="This website uses cookies! By using this website you are agreeing to our use of them. Find out more <a href='cookiepolicy.html'>here</a><span id='clw_exit' onclick='cookieWidgetHide()'>x</span>";
+}
+
+function cookieWidgetHide(){
+	var holddiv=document.getElementById('clw_hold');
+	holddiv.style.display = 'none';	
 }
